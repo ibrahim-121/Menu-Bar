@@ -1,0 +1,72 @@
+/** Navbar Work **/
+/** Menu Icon **/
+.NavMenuBar {
+    color: #FE0A52 !important;
+    font-size: 30px !important;
+}
+/** End Menu Icon **/
+/** Side Menu Bar **/
+.sideNavOpen {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    padding-top: 20px;
+    background-color: #FE0A52;
+    overflow-x: hidden;
+    transition: .5s;
+    z-index: 10;
+}
+.sideNavCloce {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    padding-top: 20px;
+    background-color: #FE0A52;
+    overflow-x: hidden;
+    transition: .5s;
+    z-index: 10;
+}
+/** End Side Menu Bar **/
+/** Side Menu Bar Icon and Text **/
+#SideNavMenu .nav-item:hover {
+    border-left: 5px solid #fff;
+    transition: .1s;
+}
+#SideNavMenu .menuText{
+    margin: 0px;
+    font-size: 20px;
+}
+#SideNavMenu i{
+    margin: 5px;
+    font-size: 24px;
+}
+/** Side Menu Bar Icon and Text **/
+/** Content Wprk **/
+.content {
+    margin-top: 90px;
+    margin-left: 60px;
+    z-index: 5;
+}
+
+.contentOverlyOpen {
+    display: block;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.3);
+    z-index: 7;
+    cursor: pointer;
+}
+.contentOverlyClose {
+    display: none;
+}
+/** End Content Wprk **/
